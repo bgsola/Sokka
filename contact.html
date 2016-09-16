@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <style type="text/css">
+        body{font: 400 15px/1.8 Lato, sans-serif;color: #777}        
+        .navbar{
+            font-family: Montserrat, sans-serif;
+            margin : 20px 0;
+            background-color: transparent;
+            border: 0;
+            font-size: 11px !important;
+            letter-spacing: 4px;
+            opacity: 0.9;
+        }
+        .navbar li a, .navbar .navbar-brand{color: #000 !important}
+        .navbar-nav li a:hover{color: #777 !important}
+        .navbar-nav li.active a{color: #fff !important;background-color: #29292c !important}
+        .navbar-default .navbar-toggle{border-color: transparent;}
+        .carousel-inner > .item > img,
+        .carousel-inner > .item > a > img{
+            width: 70%;
+            margin: auto;
+        }
+        @media (max-width: 760px){
+            #myCarousel{display: none;}
+        }
+        .thumbnail{padding: 0 0 15px 0;border: none;border-radius: 0}
+        .thumbnail p{margin-top: 15px;color: #555}
+        .btn{padding: 10px 20px;background-color: #333;color: #f1f1f1;border-radius: 0; transition :.2s;}
+        .btn:hover, .btn:focus{border: 1px solid #333;background-color: #fff;color: #000}
+        .text-center{border-bottom: 1px #000}
+        .form-control{border-radius: 0;}
+        textarea{resize :none;}
+        </style>
+    </head>
+    <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+    	<nav class="navbar navbar-default">
+            <div class="container">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><span class="glyphicon glyphicon-fire"></span> SOKKAROOF.com</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="index.html"><span class="glyphicon glyphicon-home"></span></a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li class="active"><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+        </nav>
+        <div id="contact" class="container">
+            <h3 class="text-center" style="font-weight: bold;">CONTACT</h3>
+            <br>
+            <div class="row">
+                <div class="col-md-4">
+                    <p>Address:</p>
+                    <p><span class="glyphicon glyphicon-map-marker"></span> Kedawung srepeng kec.Pejagoan kab.Kebumen Jawa tengah Indonesia 54361</p>
+                    <p><span class="glyphicon glyphicon-phone"></span> +62 822-4380-6613</p>
+                    <p><span class="glyphicon glyphicon-envelope"> bagoesolea@gmail.com</span></p>
+                </div>
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-sm-6 form-group">
+                            <input class="form-control" id="name" placeholder="Name" type="text" required>
+                        </div>
+                        <div class="col-sm-6 form-group">
+                            <input class="form-control" id="email" placeholder="Email" type="email" reqired>
+                        </div>
+                    </div>
+                    <textarea class="form-control" id="comment" name="comment" placeholder="Comment" row="5"></textarea>
+                    <br>
+                    <div class="row">
+                        <div class="col-md-12 form-group">
+                            <button class="btn pull-right" type="submit">Send</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="maps">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15816.080856683482!2d109.63898767240664!3d-7.680975011403716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7aca1137974aad%3A0x5027a76e3554770!2sKedawung%2C+Pejagoan%2C+Kabupaten+Kebumen%2C+Jawa+Tengah!5e0!3m2!1sid!2sid!4v1472021332946" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div>
+            <p class="text-center">copyright by &copy bagoes</p>
+        </div>
+    </body>
+</html>
